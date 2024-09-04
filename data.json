@@ -1,1870 +1,264 @@
 {
   "quizzes": [
     {
-      "title": "Model paper 1",
-      "icon": "./assets/images/icon-accessibility.svg",
-
+      "title": "Java Programming Model Paper 1",
+      "icon": "./assets/images/icon-java.svg",
       "questions": [
         {
-          "question": "Which HTTP method is typically used for retrieving data without modifying the server's state?",
-          "options": ["GET", "POST", "PUT", "DELETE"],
-          "answer": "GET"
+          "question": "What is the default value of a local variable in Java?",
+          "options": ["0", "null", "Depends on the data type", "Local variables do not have a default value"],
+          "answer": "Local variables do not have a default value"
         },
         {
-          "question": "Which class must a Java servlet extend to handle HTTP requests?",
-          "options": ["HttpSession", "HttpRequestHandler", "HttpServlet", "ServletRequest"],
-          "answer": "HttpServlet"
+          "question": "Which keyword is used to declare a class in Java?",
+          "options": ["class", "Class", "def", "structure"],
+          "answer": "class"
         },
         {
-          "question": "What method is used to initialize a servlet?",
-          "options": ["start()", "service()", "setup()", "init()"],
-          "answer": "init()"
+          "question": "Which method is used to start the execution of a Java program?",
+          "options": ["main()", "start()", "run()", "execute()"],
+          "answer": "main()"
         },
         {
-          "question": "Which servlet method is invoked when a client sends a GET request?",
-          "options": ["doPost()", "doGet()", "doPut()", "init()"],
-          "answer": "doGet()"
+          "question": "Which of the following is a valid Java identifier?",
+          "options": ["1variable", "variable_1", "variable-1", "variable@1"],
+          "answer": "variable_1"
         },
         {
-          "question": "Which object represents the client's response in a HttpServlet?",
-          "options": ["HttpRequest", "HttpServletResponse", "HttpServletRequest", "HttpSession"],
-          "answer": "HttpServletResponse"
+          "question": "What is the size of an int data type in Java?",
+          "options": ["8 bits", "16 bits", "32 bits", "64 bits"],
+          "answer": "32 bits"
         },
         {
-          "question": "Which scope is broader than request scope but narrower than application scope in servlets?",
-          "options": ["Request scope", "Application scope", "Session scope", "Page scope"],
-          "answer": "Session scope"
+          "question": "Which of the following is a reserved keyword in Java?",
+          "options": ["goto", "integer", "define", "include"],
+          "answer": "goto"
         },
         {
-          "question": "What is the purpose of a web container?",
-          "options": ["To execute JSP pages", "To manage servlet lifecycle", "To serve static HTML pages", "To execute JavaScript code"],
-          "answer": "To manage servlet lifecycle"
+          "question": "Which of these operators is used to allocate memory for an object?",
+          "options": ["malloc", "alloc", "new", "create"],
+          "answer": "new"
         },
         {
-          "question": "When using the forward() method of the RequestDispatcher interface, what happens to the original request object?",
-          "options": ["It remains intact and is forwarded to the target resource.", "It is replaced with a new request object.", "It is destroyed.", "It is sent as a parameter to the target resource."],
-          "answer": "It remains intact and is forwarded to the target resource."
+          "question": "Which of the following is not a primitive data type in Java?",
+          "options": ["int", "float", "String", "char"],
+          "answer": "String"
         },
         {
-          "question": "Which file is used to configure servlet mappings in a Java web application?",
-          "options": ["servlet-config.xml", "Context.xml", "web.xml", "Application.properties"],
-          "answer": "web.xml"
+          "question": "Which of the following options is a valid declaration of a boolean?",
+          "options": ["boolean b = 0;", "boolean b = true;", "boolean b = \"false\";", "boolean b = no;"],
+          "answer": "boolean b = true;"
         },
         {
-          "question": "Which JSP directive is used to include content from another file during translation time?",
-          "options": ["<%@ include %>", "<%@ page %>", "<%@ taglib %>", "<%@ import %>"],
-          "answer": "<%@ include %>"
+          "question": "Which keyword is used to inherit a class in Java?",
+          "options": ["implements", "extends", "inherits", "derives"],
+          "answer": "extends"
         },
         {
-          "question": "What is the purpose of a JSP implicit object 'out'?",
-          "options": ["To handle HTTP requests", "To represent the current JSP page", "To provide access to the response writer", "To manage session attributes"],
-          "answer": "To provide access to the response writer"
+          "question": "What is the output of the following code? `System.out.println(2 + 3 * 5);`",
+          "options": ["25", "17", "10", "15"],
+          "answer": "17"
         },
         {
-          "question": "Which listener interface is used to detect changes in the servlet context?",
-          "options": ["HttpSessionListener", "ServletRequestListener", "ServletContextListener", "HttpSessionAttributeListener"],
-          "answer": "ServletContextListener"
+          "question": "Which loop in Java is guaranteed to execute at least once?",
+          "options": ["for", "while", "do-while", "foreach"],
+          "answer": "do-while"
         },
         {
-          "question": "Which object is used to store client-specific information across multiple server requests in a web application?",
-          "options": ["HttpRequest", "HttpSession", "HttpServletRequest", "HttpServletResponse"],
-          "answer": "HttpSession"
+          "question": "Which of the following statements is true about methods in Java?",
+          "options": ["Methods must return a value.", "Methods can be overloaded.", "Methods cannot be recursive.", "Methods must be public."],
+          "answer": "Methods can be overloaded."
         },
         {
-          "question": "What is the default HTTP method used when submitting an HTML form?",
-          "options": ["GET", "POST", "PUT", "DELETE"],
-          "answer": "GET"
+          "question": "Which method is used to compare two strings in Java?",
+          "options": ["==", "equals()", "compare()", "matches()"],
+          "answer": "equals()"
         },
         {
-          "question": "Which method is used to retrieve initialization parameters from a ServletConfig object?",
-          "options": ["getParameters()", "getServletConfig()", "getServletContext()", "getInitParameter()"],
-          "answer": "getInitParameter()"
+          "question": "Which data type is used to create a variable that should store text?",
+          "options": ["char", "String", "text", "word"],
+          "answer": "String"
         },
         {
-          "question": "What is the purpose of URL rewriting in servlets?",
-          "options": ["To handle HTTP methods", "To encode URLs in HTML", "To manage session tracking without cookies", "To define custom request headers"],
-          "answer": "To manage session tracking without cookies"
+          "question": "Which of the following is used to find the length of a string in Java?",
+          "options": ["size()", "length()", "getLength()", "count()"],
+          "answer": "length()"
         },
         {
-          "question": "Which JSP directive is used to specify the content type of the response?",
-          "options": ["<%@ contentType %>", "<%@ page %>", "<%@ include %>", "<%@ taglib %>"],
-          "answer": "<%@ page %>"
+          "question": "Which of the following access specifiers can be used for a class in Java?",
+          "options": ["private", "protected", "default", "public"],
+          "answer": "public"
         },
         {
-          "question": "Which method is called to remove an attribute from a session?",
-          "options": ["session.removeAttribute()", "session.invalidate()", "session.destroy()", "session.remove()"],
-          "answer": "session.removeAttribute()"
+          "question": "Which of the following is a valid array declaration in Java?",
+          "options": ["int arr[] = new int[5];", "int arr = new int[5];", "int arr[5];", "int arr[] = new int();"],
+          "answer": "int arr[] = new int[5];"
         },
         {
-          "question": "What is the purpose of the web.xml deployment descriptor in a Java web application?",
-          "options": ["To configure servlet mappings", "To define JSP custom tags", "To specify HTML content", "To manage session attributes"],
-          "answer": "To configure servlet mappings"
+          "question": "In Java, which exception is thrown when an array is accessed with an illegal index?",
+          "options": ["ArrayIndexOutOfBoundsException", "NullPointerException", "IndexException", "IllegalArrayIndexException"],
+          "answer": "ArrayIndexOutOfBoundsException"
         },
         {
-          "question": "Which attribute scope is limited to the current JSP page?",
-          "options": ["page", "request", "session", "Application"],
-          "answer": "page"
+          "question": "What is the default value of a boolean variable in Java?",
+          "options": ["true", "false", "0", "1"],
+          "answer": "false"
         },
         {
-          "question": "Which JSP implicit object represents the application-wide attributes?",
-          "options": ["request", "session", "application", "pageContext"],
-          "answer": "application"
+          "question": "Which of the following is not a feature of the Java programming language?",
+          "options": ["Platform-independent", "Object-oriented", "Supports multiple inheritance", "Multithreaded"],
+          "answer": "Supports multiple inheritance"
         },
         {
-          "question": "Which of the following statements is true regarding the include() method in the RequestDispatcher interface?",
-          "options": ["It includes the response of another servlet or JSP within the current response.", "It sends the request to a different servlet or JSP within the same web application.", "It sends the request to a different web application.", "It terminates the servlet execution."],
-          "answer": "It includes the response of another servlet or JSP within the current response."
+          "question": "Which of the following is the correct way to import an entire package?",
+          "options": ["import package_name;", "import package_name.*;", "using package_name.*;", "include package_name.*;"],
+          "answer": "import package_name.*;"
         },
         {
-          "question": "What is the purpose of the jspInit() method in the JSP lifecycle?",
-          "options": ["To handle HTTP GET requests sent to the JSP.", "To initialize the JSP page and allocate resources.", "To clean up resources and finalize the JSP page.", "To destroy the JSP page and release allocated memory."],
-          "answer": "To initialize the JSP page and allocate resources."
+          "question": "Which of the following statements will create a new object of the String class?",
+          "options": ["String str = new String();", "String str = new String[5];", "String str = 'Hello';", "String str = 'Hello'();"],
+          "answer": "String str = new String();"
         },
         {
-          "question": "Which method is called to invalidate a session?",
-          "options": ["session.destroy()", "session.remove()", "session.expire()", "session.invalidate()"],
-          "answer": "session.invalidate()"
+          "question": "Which of the following keywords is used to prevent inheritance in Java?",
+          "options": ["static", "final", "abstract", "extends"],
+          "answer": "final"
         },
         {
-          "question": "Which of the following is a correct way of URL Rewriting?",
-          "options": ["http://localhost:8080/wcd/profile.jsp+JAVASESSIONID=123", "http://localhost:8080/wcd/profile.jsp?JSESSIONID=123", "http://localhost:8080/wcd/profile.jsp%PHPSESSID=123", "http://localhost:8080/wcd/profile.jsp;JSESSIONID=123"],
-          "answer": "http://localhost:8080/wcd/profile.jsp;JSESSIONID=123"
-        },
-        {
-          "question": "What is the purpose of the @WebServlet annotation in a servlet class?",
-          "options": ["To define servlet mappings", "To specify initialization parameters", "To manage session attributes", "To configure HTTP methods"],
-          "answer": "To define servlet mappings"
-        },
-        {
-          "question": "What is the name of <%= %>",
-          "options": ["Expression", "Page Directive", "Scriptlet", "Declaration"],
-          "answer": "Expression"
-        },
-        {
-          "question": "Which method is invoked when a client sends a POST request to a servlet?",
-          "options": ["doPost()", "doGet()", "init()", "destroy()"],
-          "answer": "doPost()"
-        },
-        {
-          "question": "Which JSP implicit object represents the session attributes?",
-          "options": ["request", "session", "response", "Application"],
-          "answer": "session"
-        },
-        {
-          "question": "What is the purpose of session tracking in a web application?",
-          "options": ["To manage servlet lifecycle", "To monitor HTTP requests", "To track user sessions across multiple requests", "To define custom JSP tags"],
-          "answer": "To track user sessions across multiple requests"
-        },
-        {
-          "question": "Which JSP directive is used to declare global variables and methods in a JSP page?",
-          "options": ["<%@ include %>", "<%! %>", "<%= %>", "<%@ taglib %>"],
-          "answer": "<%! %>"
-        },
-        {
-          "question": "Which object allows JSPs to interact with the servlet context?",
-          "options": ["request", "session", "response", "application"],
-          "answer": "application"
-        },
-        {
-          "question": "Which method is used to obtain the servlet configuration in a servlet class?",
-          "options": ["getServletContext()", "getServletConfig()", "getInitParameter()", "getParameter()"],
-          "answer": "getServletConfig()"
-        },
-        {
-          "question": "Which HTTP status code indicates that a resource is not found on the server?",
-          "options": ["200", "404", "500", "302"],
-          "answer": "404"
-        },
-        {
-          "question": "Which attribute scope in a servlet is shared across multiple users and sessions?",
-          "options": ["Request scope", "Session scope", "Page scope", "Application scope"],
-          "answer": "Application scope"
-        },
-        {
-          "question": "What is the purpose of a servlet context parameter in a web application?",
-          "options": ["To define session attributes", "To configure global settings accessible to all servlets", "To manage servlet mappings", "To specify JSP directives"],
-          "answer": "To configure global settings accessible to all servlets"
-        },
-        {
-          "question": "Which XML element is used to configure session related configurations in web.xml?",
-          "options": ["<servlet>", "<servlet-mapping>", "<session-config>", "<web-app>"],
-          "answer": "<session-config>"
-        },
-        {
-          "question": "What is the purpose of the <%@page session=\"false\" %> directive in a JSP page?",
-          "options": ["It disables session tracking for the current JSP page.", "It enables session tracking for the current JSP page.", "It sets the session timeout value for the current JSP page.", "It includes session attributes from another JSP page."],
-          "answer": "It disables session tracking for the current JSP page."
-        },
-        {
-          "question": "How can session tracking be achieved without cookies?",
-          "options": ["Hidden form fields", "URL rewriting", "Session listeners", "Request headers"],
-          "answer": "URL rewriting"
-        },
-        {
-          "question": "What is the default session timeout of HTTP Session in minutes?",
-          "options": ["30", "60", "25", "1800"],
-          "answer": "30"
+          "question": "Which of the following is not a valid Java modifier?",
+          "options": ["public", "private", "friend", "protected"],
+          "answer": "friend"
         }
       ]
     },
     {
-      "title": "Model paper 2",
-      "icon": "./assets/images/icon-accessibility.svg",
-
+      "title": "Java Programming Model Paper 2",
+      "icon": "./assets/images/icon-java.svg",
       "questions": [
         {
-          "question": "The URI: http://www.abc.com/wcd/index.jsp;jsessionid=4bac is an example of?",
-          "options": [
-            "Use of URL-rewriting for authentication.",
-            "Use of URL-rewriting for session tracking.",
-            "Use of html hidden parameters for session tracking.",
-            "Use of cookie based session tracking."
-          ],
-          "answer": "Use of URL-rewriting for session tracking."
+          "question": "Which of the following is the superclass of every class in Java?",
+          "options": ["Object", "Class", "Parent", "Superclass"],
+          "answer": "Object"
         },
         {
-          "question": "Which of the following attribute is used to have uncaught run-time exceptions automatically forwarded to an error processing page?",
-          "options": [
-            "error",
-            "errorPage",
-            "exception",
-            "exceptionPage"
-          ],
-          "answer": "errorPage"
+          "question": "Which operator is used to test for equality in Java?",
+          "options": ["=", "==", "equals()", "==="],
+          "answer": "=="
         },
         {
-          "question": "What is the method that called only once in the JSP / Servlet lifecycle?",
-          "options": [
-            "doPost",
-            "processRequest",
-            "doGet",
-            "init",
-            "service"
-          ],
-          "answer": "init"
+          "question": "Which of the following is not a type of constructor?",
+          "options": ["Default constructor", "Parameterized constructor", "Private constructor", "Copy constructor"],
+          "answer": "Copy constructor"
         },
         {
-          "question": "Config is an instance of ................... class?",
-          "options": [
-            "javax.servlet.ServletContext",
-            "javax.servlet.ServletConfig",
-            "javax.servlet.Context",
-            "javax.servlet.Application"
-          ],
-          "answer": "javax.servlet.ServletConfig"
+          "question": "Which of the following methods is used to terminate a thread in Java?",
+          "options": ["exit()", "stop()", "terminate()", "end()"],
+          "answer": "stop()"
         },
         {
-          "question": "A JSP page consists of ……………… tags?",
-          "options": [
-            "HTML tags",
-            "JSP tags",
-            "Both A & B",
-            "None of the above"
-          ],
-          "answer": "Both A & B"
+          "question": "What will be the output of `System.out.print(\"Hello \" + 1 + 2 + 3);`?",
+          "options": ["Hello 123", "Hello 6", "Hello 1 2 3", "123Hello"],
+          "answer": "Hello 123"
         },
         {
-          "question": "You need to send a JPEG file to the browser. Which of the following lines should be called?",
-          "options": [
-            "response.setContentType(\"image/jpeg\");",
-            "response.setContextType(\"image/jpeg \");",
-            "response.setDataType(\"image/jpeg \");",
-            "response.setStreamType(\"image/jpeg \");"
-          ],
-          "answer": "response.setContentType(\"image/jpeg\");"
+          "question": "What is the result of `10 % 3` in Java?",
+          "options": ["1", "2", "3", "0"],
+          "answer": "1"
         },
         {
-          "question": "What is the invalid statement in the below index.jsp?",
-          "options": [
-            "<% out.write(\"Java\"); %>",
-            "<% out.write(10); %>",
-            "<% out.write(10.5); %>",
-            "<% out.write('X'); %>"
-          ],
-          "answer": "<% out.write(10.5); %>"
+          "question": "Which method is used to convert a string to uppercase in Java?",
+          "options": ["toUpper()", "upper()", "convertUpper()", "toUpperCase()"],
+          "answer": "toUpperCase()"
         },
         {
-          "question": "A web application is located in a directory named wcd. Where should its deployment descriptor be located?",
-          "options": [
-            "wcd",
-            "wcd/deployment",
-            "wcd/WEB-INF",
-            "WEB/WEB-INF/wcd"
-          ],
-          "answer": "wcd/WEB-INF"
+          "question": "Which statement is true about the garbage collection mechanism in Java?",
+          "options": ["It is guaranteed to run periodically.", "It destroys unused objects.", "It is triggered manually by the programmer.", "It works only on arrays."],
+          "answer": "It destroys unused objects."
         },
         {
-          "question": "Which of the following method calls will ensure that a session will never be removed by the servlet container?",
-          "options": [
-            "session.setTimeout(0);",
-            "session.setTimeout(-1);",
-            "session.setTimeout(Integer.MAX_VALUE);",
-            "None of these."
-          ],
-          "answer": "session.setTimeout(-1);"
+          "question": "Which method must be defined by a Java class implementing the Runnable interface?",
+          "options": ["run()", "execute()", "start()", "init()"],
+          "answer": "run()"
         },
         {
-          "question": "When a user clicks on a link in a page, which method will get invoked?",
-          "options": [
-            "POST",
-            "PUT",
-            "GET",
-            "HEAD"
-          ],
-          "answer": "GET"
+          "question": "Which of these keywords is used to create an exception handler?",
+          "options": ["catch", "try", "throw", "throws"],
+          "answer": "catch"
         },
         {
-          "question": "Which of the following is true about destroy() method of servlet?",
-          "options": [
-            "After the destroy() method is called, the servlet object is marked for garbage collection.",
-            "The servlet is terminated by calling the destroy() method.",
-            "Both of the above.",
-            "None of the above."
-          ],
-          "answer": "Both of the above."
+          "question": "Which method is used to remove all elements from an ArrayList in Java?",
+          "options": ["removeAll()", "clear()", "delete()", "remove()"],
+          "answer": "clear()"
         },
         {
-          "question": "If a servlet generates an error that is not handled by the error_page mechanism, the container must ensure to send a response with status .....................?",
-          "options": [
-            "500",
-            "404",
-            "400",
-            "401"
-          ],
-          "answer": "500"
+          "question": "Which of these statements about interfaces in Java is true?",
+          "options": ["Interfaces can be instantiated.", "Interfaces can contain constructors.", "Interfaces can extend multiple interfaces.", "Interfaces can contain instance variables."],
+          "answer": "Interfaces can extend multiple interfaces."
         },
         {
-          "question": "Which of the following listeners will be called when a context is destroyed?",
-          "options": [
-            "HttpServletContextListner",
-            "ApplicationListener",
-            "ServletContextDestroyedListener",
-            "ServletContextListener"
-          ],
-          "answer": "ServletContextListener"
+          "question": "Which of the following is used to find the highest value of two numbers in Java?",
+          "options": ["Math.maximum()", "Math.max()", "Math.highest()", "Math.maxValue()"],
+          "answer": "Math.max()"
         },
         {
-          "question": "If a single client makes two requests, how many threads will be created by the container?",
-          "options": [
-            "0",
-            "1",
-            "2",
-            "3"
-          ],
-          "answer": "2"
+          "question": "Which of the following is a valid syntax to declare a package in Java?",
+          "options": ["package mypack;", "declare package mypack;", "include package mypack;", "package: mypack;"],
+          "answer": "package mypack;"
         },
         {
-          "question": "Which element is used to specify useful information about an initialization parameter of a servlet in the deployment descriptor?",
-          "options": [
-            "param-description",
-            "description",
-            "info",
-            "param-info"
-          ],
-          "answer": "param-description"
+          "question": "Which of these exceptions is thrown by the JVM when it encounters a divide by zero?",
+          "options": ["NullPointerException", "ArithmeticException", "DivideByZeroException", "IllegalArgumentException"],
+          "answer": "ArithmeticException"
         },
         {
-          "question": "In JSP how many ways are there to perform exception handling?",
-          "options": [
-            "3",
-            "2",
-            "4",
-            "5"
-          ],
-          "answer": "3"
+          "question": "Which of the following is true about a constructor?",
+          "options": ["A constructor cannot have a return type.", "A constructor must be public.", "A constructor must have a return type.", "A constructor cannot have parameters."],
+          "answer": "A constructor cannot have a return type."
         },
         {
-          "question": "Which of the following methods will be invoked on a session attribute that implements HttpSessionBindingListener when the session is invalidated?",
-          "options": [
-            "sessionDestroyed",
-            "valueUnbound",
-            "attributeRemoved",
-            "sessionInvalidated"
-          ],
-          "answer": "valueUnbound"
+          "question": "Which keyword is used to refer to the current instance of a class?",
+          "options": ["that", "self", "this", "class"],
+          "answer": "this"
         },
         {
-          "question": "Which of the following method you use to set redirect data into response?",
-          "options": [
-            "response.setIntHeader(String,int);",
-            "response.setHeaderData(String, String);",
-            "response.setResponseHeader(String, String);",
-            "response.setHeader(String, String);"
-          ],
-          "answer": "response.setHeader(String, String);"
+          "question": "Which keyword is used to define a constant variable in Java?",
+          "options": ["static", "constant", "final", "define"],
+          "answer": "final"
         },
         {
-          "question": "When a JSP directive will execute/invoked?",
-          "options": [
-            "Translation time",
-            "Compilation time",
-            "Run time",
-            "JSP directive will never get called."
-          ],
-          "answer": "Translation time"
+          "question": "Which of these classes is the immediate superclass of the `FileReader` class?",
+          "options": ["InputStream", "OutputStream", "FileInputStream", "Reader"],
+          "answer": "Reader"
         },
         {
-          "question": "Which method give notification that a new attribute is added to ServletRequest or ServletContext?",
-          "options": [
-            "attributeBound()",
-            "addedAttribute()",
-            "attributeAdded()",
-            "attribute()"
-          ],
-          "answer": "attributeAdded()"
+          "question": "Which of these methods can be used to read a line of text from a BufferedReader object?",
+          "options": ["readLine()", "readText()", "nextLine()", "read()"],
+          "answer": "readLine()"
         },
         {
-          "question": "In which of the following cases the request.getAttribute(); will be helpful?",
-          "options": [
-            "If a servlet or jsp is invoked using sendRedirect method.",
-            "If a servlet or jsp is invoked using forward method.",
-            "If a servlet or jsp is invoked using a hyperlink in the page.",
-            "If a servlet or jsp is invoked if when form submits."
-          ],
-          "answer": "If a servlet or jsp is invoked using forward method."
+          "question": "Which of the following is not a valid constructor in Java?",
+          "options": ["MyClass()", "void MyClass()", "MyClass(int a)", "MyClass(String s)"],
+          "answer": "void MyClass()"
         },
         {
-          "question": "Which interface is having method getSession() ?",
-          "options": [
-            "HttpSession",
-            "ServletRequest",
-            "HttpServletRequest",
-            "Servlet"
-          ],
-          "answer": "HttpServletRequest"
+          "question": "Which of these is a feature of polymorphism in Java?",
+          "options": ["Method Overloading", "Method Overriding", "Both A and B", "None of the above"],
+          "answer": "Both A and B"
         },
         {
-          "question": "Which of the below statement is true about session-timeout?",
-          "options": [
-            "The specified timeout must be expressed in a whole number of MINUTES",
-            "If the timeout is 0 or less, sessions is NEVER to time out",
-            "If this element is not specified, the container must set its default timeout period",
-            "All of the above"
-          ],
-          "answer": "All of the above"
+          "question": "Which of these is used to generate random numbers in Java?",
+          "options": ["java.util.Random", "java.lang.Math", "java.io.Random", "java.util.Math"],
+          "answer": "java.util.Random"
         },
         {
-          "question": "Which of the following is the proper way to include java.util package in your jsp page?",
-          "options": [
-            "<%@page:import package=\"java.util\">",
-            "<%@ page import = \"java.util.*\" %>",
-            "<%= import java.util.*; %>",
-            "<%@ page import=\"java.util.*\" =%>"
-          ],
-          "answer": "<%@ page import = \"java.util.*\" %>"
+          "question": "Which of the following is true about Java arrays?",
+          "options": ["Arrays can hold objects of different types.", "Arrays have a fixed size once they are created.", "Arrays are automatically resizable.", "Arrays are linked lists."],
+          "answer": "Arrays have a fixed size once they are created."
         },
         {
-          "question": "Which of these are webserver?",
-          "options": [
-            "Internet Information Services (IIS)",
-            "Tomcat",
-            "Lighttpd",
-            "All the Above"
-          ],
-          "answer": "All the Above"
-        },
-        {
-          "question": "Which method in the HttpServlet class services the HTTP GET request?",
-          "options": [
-            "doGet(ServletRequest, ServletResponse)",
-            "doGET(ServletRequest, ServletResponse)",
-            "serviceGet(HttpServletRequest, HttpServletResponse)",
-            "doGet(HttpServletRequest, HttpServletResponse)"
-          ],
-          "answer": "doGet(HttpServletRequest, HttpServletResponse)"
-        },
-        {
-          "question": "In which of the following situations will a session be destroyed?",
-          "options": [
-            "No request is received from the client for longer than the session timeout period.",
-            "The client sends a KILL_SESSION request",
-            "The servlet container decides to invalidate a session due to overload.",
-            "A user closes the active browser window"
-          ],
-          "answer": 
-            "No request is received from the client for longer than the session timeout period."        
-          
-        },
-        {
-          "question": "Which are the valid URL mappings to a servlet in a web deployment descriptor?",
-          "options": [
-            "*/",
-            
-            "/MyServlet",
-            "/MyServlet/*",
-          "Both B and C"
-          ],
-          "answer": "Both B and C"
-        },
-        {
-          "question": "Which retrieves the binary input stream?",
-          "options": [
-            "request.getReader();",
-            "request.getWriter();",
-            "request.getResourceAsStream();",
-            "request.getInputStream();"
-          ],
-          "answer": "request.getInputStream();"
-        },
-        {
-          "question": "Choose the statement that best describes the relationship between JSP and servlets?",
-          "options": [
-            "Servlets are built on JSP semantics and all servlets are compiled to JSP pages for runtime usage.",
-            "JSP and servlets are unrelated technologies.",
-            "Servlets and JSP are competing technologies for handling web requests. Servlets are being superseded by JSP, which is preferred. The two technologies are not useful in combination.",
-            "JSPs are built on servlet semantics and all JSPs are compiled to servlets for runtime usage."
-          ],
-          "answer": "JSPs are built on servlet semantics and all JSPs are compiled to servlets for runtime usage."
-        },
-        {
-          "question": "Why use RequestDispatcher to forward a request to another resource, instead of using a sendRedirect?",
-          "options": [
-            "Redirects are no longer supported in the current servlet API.",
-            "Redirects are not a cross-platform portable mechanism.",
-            "The RequestDispatcher does not use the reflection API.",
-            "The RequestDispatcher does not require a round trip to the client, and thus is more efficient and allows the server to maintain request state."
-          ],
-          "answer": "The RequestDispatcher does not require a round trip to the client, and thus is more efficient and allows the server to maintain request state."
-        },
-        {
-          "question": "What is the signature of jsp destroy method?",
-          "options": [
-            "jspDestroy();",
-            "destroy();",
-            "_jspDestroy(ServletConfig config);",
-            "destroy(ServletConfig config);"
-          ],
-          "answer": "jspDestroy();"
-        },
-        {
-          "question": "Which attribute specifies a JSP page that should process any exceptions thrown but not caught in the current page?",
-          "options": [
-            "The ErrorPage Attribute",
-            "The IsErrorPage Attribute",
-            "Both A & B",
-            "None of the above"
-          ],
-          "answer": "The ErrorPage Attribute"
-        },
-        {
-          "question": "What are the mechanisms available in ServletContextListener interface?",
-          "options": [
-            "contextInit(), contextService(), contextDestroyed()",
-            "contextInitialized(),contextDestroyed()",
-            "contextInitialized(), contextService(), contextDestroyed()",
-            "None of the above"
-          ],
-          "answer": "contextInitialized(),contextDestroyed()"
-        },
-        {
-          "question": "The getSession() method with ‘true’ as its parameter will return the appropriate session object when,",
-          "options": [
-            "The session is completed",
-            "The session object is passed to another method",
-            "The session does not exists",
-            "The session is existing"
-          ],
-          "answer": "The session is existing"
-        }
-      ]
-    },
-    {
-      "title": "Model paper 3",
-      "icon": "./assets/images/icon-accessibility.svg",
-
-      "questions": [
-        {
-          "question": "What is the invalid attributes of the annotation javax.servlet.annotation.WebFilter?",
-          "options": [
-            "name",
-            "urlPatterns",
-            "dispatcherTypes",
-            "asyncSupported"
-          ],
-          "answer": "asyncSupported"
-        },
-        {
-          "question": "What is the default value of the type attribute for the <fmt:formatDate> actions?",
-          "options": [
-            "date",
-            "time",
-            "both",
-            "null"
-          ],
-          "answer": "date"
-        },
-        {
-          "question": "Which is not a directive?",
-          "options": [
-            "include",
-            "page",
-            "export",
-            "useBean"
-          ],
-          "answer": "export"
-        },
-        {
-          "question": "When a JSP directive will execute/invoked?",
-          "options": [
-            "translation time",
-            "compilation time",
-            "run time",
-            "JSP directive will never get called."
-          ],
-          "answer": "translation time"
-        },
-        {
-          "question": "Which of the following is true about isELIgnored Attribute?",
-          "options": [
-            "The isELIgnored option gives you the ability to disable the evaluation of scriplets.",
-            "The isELIgnored option gives you the ability to disable the evaluation of java code in jsp.",
-            "The isELIgnored option gives you the ability to disable the evaluation of EL.",
-            "None of the above."
-          ],
-          "answer": "The isELIgnored option gives you the ability to disable the evaluation of EL."
-        },
-        {
-          "question": "When using the <fmt:formatNumber> action the numeric value to be formatted can be specified using the value attribute or when omitted read from where?",
-          "options": [
-            "The value attribute is mandatory and must be specified",
-            "The action is ignored",
-            "The value attribute is treated as a null value",
-            "The numeric value can be read from the tag's body content"
-          ],
-          "answer": "The numeric value can be read from the tag's body content"
-        },
-        {
-          "question": "Which of the elements defined within the taglib element of taglib descriptor file are required. Select the two correct answers.",
-          "options": [
-            "tlib-version",
-            "short-name",
-            "uri",
-            "Both A & C"
-          ],
-          "answer": [
-            "Both A & C"
-          ]
-        },
-        {
-          "question": "Which of the following is true about <jsp:forward> action?",
-          "options": [
-            "The forward action terminates the action of the current page.",
-            "The forward action forwards the request to another resource such as a static page, another JSP page, or a Java Servlet.",
-            "Both of the above.",
-            "None of the above."
-          ],
-          "answer": "Both of the above."
-        },
-        {
-          "question": "What gets printed when the following expression is evaluated? Select the one correct answer. ${ (1==2) ? 4 : 5 }",
-          "options": [
-            "1",
-            "2",
-            "4",
-            "5"
-          ],
-          "answer": "5"
-        },
-        {
-          "question": "How to pass information from JSP to included JSP?",
-          "options": [
-            "Using <jsp:param/> tag.",
-            "Using <jsp:page/> tag.",
-            "Using <jsp:import/> tag.",
-            "Using <jsp:useBean/> tag."
-          ],
-          "answer": "Using <jsp:param/> tag."
-        },
-        {
-          "question": "What is the use of <c:if> tag?",
-          "options": [
-            "It is used to check if jsp tag library is enabled or not.",
-            "It evaluates an expression and displays its body content only if the expression evaluates to true.",
-            "Both of the above.",
-            "None of the above."
-          ],
-          "answer": "It evaluates an expression and displays its body content only if the expression evaluates to true."
-        },
-        {
-          "question": "JSP includes a mechanism for defining …………………………. or custom tags.",
-          "options": [
-            "static attributes",
-            "local attributes",
-            "dynamic",
-            "global attributes"
-          ],
-          "answer": "dynamic"
-        },
-        {
-          "question": "Which attribute specifies a JSP page that should process any exceptions thrown but not caught in the current page?",
-          "options": [
-            "The ErrorPage Attribute",
-            "The IsErrorPage Attribute",
-            "Both A & B",
-            "None of the above"
-          ],
-          "answer": "The ErrorPage Attribute"
-        },
-        {
-          "question": "The tasks – authentication-blocking of requests, data compression, logging and auditing – are performed by",
-          "options": [
-            "servlet filter",
-            "servlet config",
-            "servlet context",
-            "servlet container"
-          ],
-          "answer": "servlet filter"
-        },
-        {
-          "question": "Which tag is used to set a value of a JavaBean?",
-          "options": [
-            "<c:set/>",
-            "<c:param/>",
-            "<c:choose/>",
-            "<c:forward/>"
-          ],
-          "answer": "<c:set/>"
-        },
-        {
-          "question": "Which of the following is not a directive in JSP?",
-          "options": [
-            "page directive",
-            "include directive",
-            "taglib directive",
-            "command directive"
-          ],
-          "answer": "command directive"
-        },
-        {
-          "question": "What is the incorrect JSTL function tag?",
-          "options": [
-            "fn:toLowerCase()",
-            "fn:contains()",
-            "fn:split()",
-            "fn:toString()"
-          ],
-          "answer": "fn:toString()"
-        },
-        {
-          "question": "The <c:remove> tag removes a scoped object?",
-          "options": [
-            "true",
-            "false"
-          ],
-          "answer": "If a servlet or jsp is invoked using forward method."
-        },
-        {
-          "question": "What type of error object is thrown from the <c:catch> tag?",
-          "options": [
-            "java.lang.Error",
-            "java.lang.Exception",
-            "java.lang.Throwable",
-            "Any of the above"
-          ],
-          "answer": "java.lang.Throwable"
-        },
-        {
-          "question": "What is the default value of the type attribute for the <fmt:formatNumber> and actions?",
-          "options": [
-            "currency",
-            "number",
-            "percentage",
-            "integer"
-          ],
-          "answer": "number"
-        },
-        {
-          "question": "What happens if a query using the <sql:query> action produces no results?",
-          "options": [
-            "An exception is thrown",
-            "An empty Result object is returned",
-            "No Result object is returned",
-            "A Result object is returned containing a null record"
-          ],
-          "answer": "An empty Result object is returned"
-        },
-        {
-          "question": "All the Function tag actions only work on strings?",
-          "options": [
-            "true",
-            "false"
-          ],
-          "answer": "true"
-        },
-        {
-          "question": "What is the last method called in the simple tag lifecycle?",
-          "options": [
-            "doTag()",
-            "setJspBody()",
-            "doSimpleTag()",
-            "setJspContext()"
-          ],
-          "answer": "doTag()"
-        },
-        {
-          "question": "Within a context-param element of deployment descriptor, which of the following element is required?",
-          "options": [
-            "param-name",
-            "name",
-            "init-param",
-            "servlet-name"
-          ],
-          "answer": "param-name"
-        },
-        {
-          "question": "Which of the following correctly represents the following JSP statement? <%x=1;%>",
-          "options": [
-            "<jsp:expression x=1;/>",
-            "<jsp:statement>x=1;</jsp:statement>",
-            "<jsp:declaration>x=1;</jsp:declaration>",
-            "<jsp:scriptlet>x=1;</jsp:scriptlet>"
-          ],
-          "answer": "<jsp:scriptlet>x=1;</jsp:scriptlet>"
-        }
-      ]
-    },
-    {
-      "title": "Model paper Tharaka Sir",
-      "icon": "./assets/images/icon-accessibility.svg",
-      "questions": [
-        {
-          "question": "Which class must a Java servlet extend to handle HTTP requests?",
-          "options": [
-            "HttpSession",
-            "HttpRequestHandler",
-            "HttpServlet",
-            "ServletRequest"
-          ],
-          "answer": "HttpServlet"
-        },
-        {
-          "question": "What method is used to initialize a servlet?",
-          "options": [
-            "start()",
-            "service()",
-            "setup()",
-            "init()"
-          ],
-          "answer": "init()"
-        },
-        {
-          "question": "Which of the following packages contain servlet classes?",
-          "options": [
-            "javax.servlet",
-            "javax.servlet.http",
-            "Both of the above",
-            "None of the above"
-          ],
-          "answer": "Both of the above"
-        },
-        {
-          "question": "Which method is used to get the parameter value from the request object?",
-          "options": [
-            "getParameterValue()",
-            "getParameter()",
-            "getValue()",
-            "requestParameter()"
-          ],
-          "answer": "getParameter()"
-        },
-        {
-          "question": "Which file is used to configure servlet mappings in a Java web application?",
-          "options": [
-            "servlet-config.xml",
-            "Context.xml",
-            "web.xml",
-            "Application.properties"
-          ],
-          "answer": "web.xml"
-        },
-        {
-          "question": "What is the purpose of a JSP implicit object 'out'?",
-          "options": [
-            "To handle HTTP requests",
-            "To represent the current JSP page",
-            "To provide access to the response writer",
-            "To manage session attributes"
-          ],
-          "answer": "To provide access to the response writer"
-        },
-        {
-          "question": "What is the purpose of URL rewriting in servlets?",
-          "options": [
-            "To handle HTTP methods",
-            "To encode URLs in HTML",
-            "To manage session tracking without cookies",
-            "To define custom request headers"
-          ],
-          "answer": "To manage session tracking without cookies"
-        },
-        {
-          "question": "What is the name of `<%= %>`?",
-          "options": [
-            "Expression",
-            "Page Directive",
-            "Scriptlet",
-            "Declaration"
-          ],
-          "answer": "Expression"
-        },
-        {
-          "question": "Which method is used to destroy a session?",
-          "options": [
-            "invalidateSession()",
-            "invalidate()",
-            "deleteSession()",
-            "delete()"
-          ],
-          "answer": "invalidate()"
-        },
-        {
-          "question": "What is the purpose of session tracking in a web application?",
-          "options": [
-            "To manage servlet lifecycle",
-            "To monitor HTTP requests",
-            "To track user sessions across multiple requests",
-            "To define custom JSP tags"
-          ],
-          "answer": "To track user sessions across multiple requests"
-        },
-        {
-          "question": "Which method of ServletContextListener is invoked when an application is initialized?",
-          "options": [
-            "contextInitialized()",
-            "initialized()",
-            "applicationInitialized()",
-            "servletInitialized()"
-          ],
-          "answer": "contextInitialized()"
-        },
-        {
-          "question": "Which JSP directive is used to declare global variables and methods in a JSP page?",
-          "options": [
-            "<%@ include %>",
-            "<%! %>",
-            "<%= %>",
-            "<%@ taglib %>"
-          ],
-          "answer": "<%! %>"
-        },
-        {
-          "question": "Which object allows JSPs to interact with the servlet context?",
-          "options": [
-            "request",
-            "session",
-            "response",
-            "application"
-          ],
-          "answer": "application"
-        },
-        {
-          "question": "Which HTTP status code indicates that a resource is not found on the server?",
-          "options": [
-            "200",
-            "404",
-            "500",
-            "302"
-          ],
-          "answer": "404"
-        },
-        {
-          "question": "What is the default session timeout of HTTP Session in minutes?",
-          "options": [
-            "30",
-            "60",
-            "25",
-            "1800"
-          ],
-          "answer": "30"
-        },
-        {
-          "question": "Which method is called to remove an attribute from a session?",
-          "options": [
-            "session.removeAttribute()",
-            "session.invalidate()",
-            "session.destroy()",
-            "session.remove()"
-          ],
-          "answer": "session.removeAttribute()"
-        },
-        {
-          "question": "What is the purpose of the `jspInit()` method in the JSP lifecycle?",
-          "options": [
-            "To handle HTTP GET requests sent to the JSP.",
-            "To initialize the JSP page and allocate resources.",
-            "To clean up resources and finalize the JSP page.",
-            "To destroy the JSP page and release allocated memory."
-          ],
-          "answer": "To initialize the JSP page and allocate resources."
-        },
-        {
-          "question": "Which implicit object of JSP is equivalent to the `this` variable of Java programming language?",
-          "options": [
-            "page",
-            "pageContext",
-            "config",
-            "application"
-          ],
-          "answer": "page"
-        },
-        {
-          "question": "What is the purpose of the `@WebServlet` annotation in a servlet class?",
-          "options": [
-            "To define servlet mappings",
-            "To specify initialization parameters",
-            "To manage session attributes",
-            "To configure HTTP methods"
-          ],
-          "answer": "To define servlet mappings"
-        },
-        {
-          "question": "Which XML element is used to configure session-related configurations in `web.xml`?",
-          "options": [
-            "<servlet>",
-            "<servlet-mapping>",
-            "<session-config>",
-            "<web-app>"
-          ],
-          "answer": "<session-config>"
-        },
-        {
-          "question": "What is the purpose of a web container?",
-          "options": [
-            "To execute JSP pages",
-            "To manage servlet lifecycle",
-            "To serve static HTML pages",
-            "To execute JavaScript code"
-          ],
-          "answer": "To manage servlet lifecycle"
-        },
-        {
-          "question": "What is the default HTTP method used when submitting an HTML form?",
-          "options": [
-            "GET",
-            "POST",
-            "PUT",
-            "DELETE"
-          ],
-          "answer": "GET"
-        },
-        {
-          "question": "Which of the following statements is true regarding the `include()` method in the RequestDispatcher interface?",
-          "options": [
-            "It includes the response of another servlet or JSP within the current response.",
-            "It sends the request to a different servlet or JSP within the same web application.",
-            "It sends the request to a different web application.",
-            "It terminates the servlet execution."
-          ],
-          "answer": "It includes the response of another servlet or JSP within the current response."
-        },
-        {
-          "question": "Which method of HttpSessionListener gives notification when a session is created?",
-          "options": [
-            "sessionCreated()",
-            "sessionStarted()",
-            "isNew()",
-            "sessionInitialized()"
-          ],
-          "answer": "sessionCreated()"
-        },
-        {
-          "question": "Which method is used to retrieve initialization parameters from a ServletConfig object?",
-          "options": [
-            "getParameters()",
-            "getServletConfig()",
-            "getServletContext()",
-            "getInitParameter()"
-          ],
-          "answer": "getInitParameter()"
-        },
-        {
-          "question": "What is the purpose of a servlet context parameter in a web application?",
-          "options": [
-            "To define session attributes",
-            "To configure global settings accessible to all servlets",
-            "To manage servlet mappings",
-            "To specify JSP directives"
-          ],
-          "answer": "To configure global settings accessible to all servlets"
-        },
-        {
-          "question": "Never end an expression with a semicolon inside an Expression Tag?",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": "True"
-        },
-        {
-          "question": "Which method is used to access the cookies that are added to the response object?",
-          "options": [
-            "getCookies()",
-            "getNewCookies()",
-            "cookies()",
-            "returnCookies()"
-          ],
-          "answer": "getCookies()"
-        },
-        {
-          "question": "`<%! // this is a ............ %>`",
-          "options": [
-            "Declaration in a JSP Page",
-            "Scriptlet in a JSP Page",
-            "Expression in a JSP Page",
-            "None of the above"
-          ],
-          "answer": "Declaration in a JSP Page"
-        },
-        {
-          "question": "What is the lifecycle of a servlet?",
-          "options": [
-            "Servlet class is loaded",
-            "Servlet instance is created",
-            "init, service, destroy methods are invoked",
-            "All mentioned above"
-          ],
-          "answer": "All mentioned above"
-        },
-        {
-          "question": "Which method is used to send the same request and response objects to another servlet in RequestDispatcher?",
-          "options": [
-            "forward()",
-            "sendRedirect()",
-            "Both A & B",
-            "None of the above"
-          ],
-          "answer": "forward()"
-        },
-        {
-          "question": "The `sendRedirect()` method of HttpServletResponse interface can be used to redirect response to another resource; it may be a servlet, JSP, or HTML file.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": "True"
-        },
-        {
-          "question": "Which of the following code deletes a cookie in servlet?",
-          "options": [
-            "response.deleteCookie(cookie);",
-            "cookie.setMaxAge(0);",
-            "request.deleteCookie(cookie);",
-            "None of the above"
-          ],
-          "answer": "cookie.setMaxAge(0);"
-        },
-        {
-          "question": "When the Web Container initializes a servlet, it creates a __________ object for the servlet?",
-          "options": [
-            "ServletConfig",
-            "ServletInit",
-            "ServletContext",
-            "None of the above"
-          ],
-          "answer": "ServletConfig"
-        },
-        {
-          "question": "__________ is responsible for managing execution of servlet.",
-          "options": [
-            "Web Container",
-            "Servlet Context",
-            "JVM",
-            "Server"
-          ],
-          "answer": "Web Container"
-        },
-        {
-          "question": "Which class provides implementation for the `service()` method?",
-          "options": [
-            "GenericServlet",
-            "HttpServlet",
-            "Servlet",
-            "None of the above"
-          ],
-          "answer": "HttpServlet"
-        },
-        {
-          "question": "Which method is called only once in the Servlet lifecycle?",
-          "options": [
-            "service()",
-            "init()",
-            "initialize()",
-            "all of the above"
-          ],
-          "answer": "init()"
-        },
-        {
-          "question": "Which method defined in the HttpServletResponse may be used to set the content type?",
-          "options": [
-            "setType()",
-            "setContent()",
-            "setContentType()",
-            "setResponseContentType()"
-          ],
-          "answer": "setContentType()"
-        }
-      ]
-    },
-    {
-      "title": "Model paper 4",
-      "icon": "./assets/images/icon-accessibility.svg",
-      "questions": [
-        {
-          "question": "Which of the following is a valid way to iterate over a collection in JSTL?",
-          "options": [
-            "<c:loop>",
-            "<c:forEach>",
-            "<c:iterate>",
-            "<c:repeat>"
-          ],
-          "answer": "<c:forEach>"
-        },
-        {
-          "question": "Which JSTL tag library is used for SQL database operations?",
-          "options": [
-            "JSTL Core",
-            "JSTL XML",
-            "JSTL SQL",
-            "JSTL Functions"
-          ],
-          "answer": "JSTL SQL"
-        },
-        {
-          "question": "What is the purpose of the <sql:query> tag in JSTL?",
-          "options": [
-            "To execute SQL statements",
-            "To perform XML transformations",
-            "To loop through a collection",
-            "To set a JavaBean property"
-          ],
-          "answer": "To execute SQL statements"
-        },
-        {
-          "question": "Which JSP tag is used to instantiate a JavaBean?",
-          "options": [
-            "<jsp:useBean>",
-            "<jsp:setBean>",
-            "<jsp:getBean>",
-            "<jsp:bean>"
-          ],
-          "answer": "<jsp:useBean>"
-        },
-        {
-          "question": "What is the default scope for a JavaBean created with <jsp:useBean>?",
-          "options": [
-            "Page",
-            "Request",
-            "Session",
-            "Application"
-          ],
-          "answer": "Page"
-        },
-        {
-          "question": "How to access the 'param' via EL in a JSP?",
-          "options": [
-            "${session.param}",
-            "${param}",
-            "${sessionScope.param}",
-            "${param.value}"
-          ],
-          "answer": "${sessionScope.param}"
-        },
-        {
-          "question": "Which of the following scopes exists only for the duration of the request?",
-          "options": [
-            "page",
-            "request",
-            "session",
-            "application"
-          ],
-          "answer": "request"
-        },
-        {
-          "question": "In JSP, which scope can be shared across multiple requests and sessions?",
-          "options": [
-            "page",
-            "request",
-            "session",
-            "application"
-          ],
-          "answer": "application"
-        },
-        {
-          "question": "Which attribute is used to set a session scope for a bean in a JSP page?",
-          "options": [
-            "sessionScope",
-            "scope=\"session\"",
-            "scope=\"page\"",
-            "sessionId"
-          ],
-          "answer": "scope=\"session\""
-        },
-        {
-          "question": "Which tag should be used to set a property of a JavaBean in a JSP page?",
-          "options": [
-            "<jsp:setProperty>",
-            "<jsp:property>",
-            "<jsp:configProperty>",
-            "<jsp:getProperty>"
-          ],
-          "answer": "<jsp:setProperty>"
-        },
-        {
-          "question": "Which of the following is a feature of JavaBeans?",
-          "options": [
-            "Serializable",
-            "Public no-argument constructor",
-            "Getter and setter methods",
-            "All of the above"
-          ],
-          "answer": "All of the above"
-        },
-        {
-          "question": "What happens if you try to instantiate a bean that already exists in the same scope?",
-          "options": [
-            "A new instance is created",
-            "The existing bean is reused",
-            "The JSP page throws an exception",
-            "The page fails to compile"
-          ],
-          "answer": "The existing bean is reused"
-        },
-        {
-          "question": "If you attempt to run a JSP that contains a coding error, the server typically returns an error page with HTTP Status _______.",
-          "options": [
-            "404",
-            "202",
-            "500",
-            "302"
-          ],
-          "answer": "500"
-        },
-        {
-          "question": "Which of these represent the correct path for the core JSTL library?",
-          "options": [
-            "http://java.sun.com/jsp/jstl/core",
-            "http://java.sun.com/jsp/core",
-            "http://java.sun.com/core",
-            "http://java.sun.com/jsp/jstl/1.1/core"
-          ],
-          "answer": "http://java.sun.com/jsp/jstl/core"
-        },
-        {
-          "question": "What gets printed when the following expression is evaluated? ${(1==2) ? 4 : 5}",
-          "options": [
-            "1",
-            "2",
-            "4",
-            "5"
-          ],
-          "answer": "5"
-        },
-        {
-          "question": "What gets printed when the following expression is evaluated? ${4 div 5}",
-          "options": [
-            "0",
-            "0.8",
-            "1",
-            "-1"
-          ],
-          "answer": "0.8"
-        },
-        {
-          "question": "What gets printed when the following expression is evaluated? ${12 % 4}",
-          "options": [
-            "0",
-            "3",
-            "8",
-            "16"
-          ],
-          "answer": "0"
-        },
-        {
-          "question": "What is the output of the following JSP code? <c:set var=\"x\" value=\"5\"/><c:out value=\"${x * 2}\"/>",
-          "options": [
-            "10",
-            "5",
-            "25",
-            "Error"
-          ],
-          "answer": "10"
-        },
-        {
-          "question": "When we create a custom Handler class for a custom Tag Library, which class should be extended?",
-          "options": [
-            "TagHandler",
-            "SimpleTagSupport",
-            "CustomHandler",
-            "SimpleTag"
-          ],
-          "answer": "SimpleTagSupport"
-        },
-        {
-          "question": "To include HTML or JSP files within a JSP at runtime, you can use a/an ______ import tag.",
-          "options": [
-            "JSP",
-            "Scriptlet",
-            "Bean",
-            "JSTL"
-          ],
-          "answer": "JSTL"
-        },
-        {
-          "question": "What is the purpose of the <jsp:forward> tag in JSP?",
-          "options": [
-            "To forward the request to another resource",
-            "To handle exceptions",
-            "To create a new session",
-            "To redirect the user to a new URL"
-          ],
-          "answer": "To forward the request to another resource"
-        },
-        {
-          "question": "Which attribute in <sql:query> specifies the database connection?",
-          "options": [
-            "connection",
-            "dataSource",
-            "connectionSource",
-            "dbConnection"
-          ],
-          "answer": "dataSource"
-        },
-        {
-          "question": "Which attribute is used to specify the error page?",
-          "options": [
-            "isErrorPage",
-            "errorPage",
-            "errorPages",
-            "forError"
-          ],
-          "answer": "errorPage"
-        },
-        {
-          "question": "What happens when an uncaught exception is thrown in a JSP page with an errorPage directive?",
-          "options": [
-            "The error page specified is displayed",
-            "The server shuts down",
-            "The user is redirected to the homepage",
-            "The exception is ignored"
-          ],
-          "answer": "The error page specified is displayed"
-        },
-        {
-          "question": "Which tag is used to handle exceptions in JSP?",
-          "options": [
-            "<jsp:captureException>",
-            "<jsp:handleException>",
-            "<jsp:error>",
-            "<c:catch>"
-          ],
-          "answer": "<c:catch>"
-        },
-        {
-          "question": "To include a file in a JSP at compile-time, you can use the ______________ directive.",
-          "options": [
-            "set",
-            "parse",
-            "include",
-            "append"
-          ],
-          "answer": "include"
-        },
-        {
-          "question": "A/an ______________ is a special type of object that provides a standard way to access its properties.",
-          "options": [
-            "PageBean",
-            "JavaBean",
-            "ServletBean",
-            "XmlBean"
-          ],
-          "answer": "JavaBean"
-        },
-        {
-          "question": "Which JSTL SQL tag is used to update data in the database?",
-          "options": [
-            "<sql:update>",
-            "<sql:modify>",
-            "<sql:execute>",
-            "<sql:change>"
-          ],
-          "answer": "<sql:update>"
-        },
-        {
-          "question": "In which deployment descriptor element is a filter mapped to a servlet or URL pattern?",
-          "options": [
-            "<filter>",
-            "<filter-mapping>",
-            "<servlet>",
-            "<listener>"
-          ],
-          "answer": "<filter-mapping>"
-        },
-        {
-          "question": "What does the FilterChain interface represent?",
-          "options": [
-            "A single filter in the filter chain",
-            "The sequence of filters applied to a request/response",
-            "The container for all servlets in a web application",
-            "The request-response lifecycle manager"
-          ],
-          "answer": "The sequence of filters applied to a request/response"
-        },
-        {
-          "question": "Which function in JSTL is used to trim leading and trailing whitespace from a string?",
-          "options": [
-            "fn:substring",
-            "fn:toUpperCase",
-            "fn:trim",
-            "fn:replace"
-          ],
-          "answer": "fn:trim"
-        },
-        {
-          "question": "To replace occurrences of a substring within a string using JSTL, which function is used?",
-          "options": [
-            "fn:substring",
-            "fn:replace",
-            "fn:split",
-            "fn:trim"
-          ],
-          "answer": "fn:replace"
-        },
-        {
-          "question": "Assuming the standard JSTL prefix conventions are used, which JSTL tags would you use to iterate over a collection of objects?",
-          "options": [
-            "<c:for>",
-            "<c:iterate>",
-            "<c:forEach>",
-            "<c:forTokens>"
-          ],
-          "answer": "<c:forEach>"
-        },
-        {
-          "question": "What is the default value of the session attribute in the page directive?",
-          "options": [
-            "false",
-            "true",
-            "null",
-            "undefined"
-          ],
-          "answer": "true"
-        },
-        {
-          "question": "Which of the following is the default contentType value in a JSP page?",
-          "options": [
-            "text/plain",
-            "text/xml",
-            "text/html",
-            "application/json"
-          ],
-          "answer": "text/html"
-        },
-        {
-          "question": "What is the purpose of the <taglib> directive in a JSP page?",
-          "options": [
-            "To declare the use of a custom tag library in the JSP page",
-            "To include a tag file in the JSP page",
-            "To define a custom tag",
-            "To forward a request to another JSP page"
-          ],
-          "answer": "To declare the use of a custom tag library in the JSP page"
-        },
-        {
-          "question": "What does the body-content element specify in a TLD file?",
-          "options": [
-            "The content type of the tag body",
-            "Whether the tag can have a body and what it contains",
-            "The URI of the tag library",
-            "The handler class for the custom tag"
-          ],
-          "answer": "Whether the tag can have a body and what it contains"
-        },
-        {
-          "question": "In the MVC pattern, which component is responsible for handling user input?",
-          "options": [
-            "Model",
-            "View",
-            "Controller",
-            "Dispatcher"
-          ],
-          "answer": "Controller"
-        },
-        {
-          "question": "Which method is used to send a redirect response to the client in a servlet?",
-          "options": [
-            "sendRedirect()",
-            "forward()",
-            "dispatch()",
-            "sendError()"
-          ],
-          "answer": "sendRedirect()"
-        },
-        {
-          "question": "Which JSP directive is used to include content from another resource (e.g., HTML, JSP) at page translation time?",
-          "options": [
-            "<%@ include %>",
-            "<%@ taglib %>",
-            "<%! %>",
-            "<jsp:include>"
-          ],
-          "answer": "<%@ include %>"
-        }
-        
-      ]
-    },
-    {
-      "title": "Model paper 5",
-      "icon": "./assets/images/icon-accessibility.svg",
-      "questions": [
-        {
-          "question": "Which of the following is a valid way to iterate over a collection in JSTL?",
-          "options": ["<c:loop>", "<c:forEach>", "<c:iterate>", "<c:repeat>"],
-          "answer": "<c:forEach>"
-        },
-        {
-          "question": "Which JSTL tag library is used for SQL database operations?",
-          "options": ["JSTL Core", "JSTL XML", "JSTL SQL", "JSTL Functions"],
-          "answer": "JSTL SQL"
-        },
-        {
-          "question": "What is the purpose of the <sql:query> tag in JSTL?",
-          "options": ["To execute SQL statements", "To perform XML transformations", "To loop through a collection", "To set a JavaBean property"],
-          "answer": "To execute SQL statements"
-        },
-        {
-          "question": "Which JSP tag is used to instantiate a JavaBean?",
-          "options": ["<jsp:useBean>", "<jsp:setBean>", "<jsp:getBean>", "<jsp:bean>"],
-          "answer": "<jsp:useBean>"
-        },
-        {
-          "question": "What is the default scope for a JavaBean created with <jsp:useBean>?",
-          "options": ["Page", "Request", "Session", "Application"],
-          "answer": "Page"
-        },
-        {
-          "question": "How to access the 'param' via EL in a JSP?",
-          "options": ["${session.param}", "${param}", "${sessionScope.param}", "${param.value}"],
-          "answer": "${param}"
-        },
-        {
-          "question": "Which of the following scopes exists only for the duration of the request?",
-          "options": ["page", "request", "session", "application"],
-          "answer": "request"
-        },
-        {
-          "question": "In JSP, which scope can be shared across multiple requests and sessions?",
-          "options": ["page", "request", "session", "application"],
-          "answer": "application"
-        },
-        {
-          "question": "Which attribute is used to set a session scope for a bean in a JSP page?",
-          "options": ["sessionScope", "scope=\"session\"", "scope=\"page\"", "sessionId"],
-          "answer": "scope=\"session\""
-        },
-        {
-          "question": "Which tag should be used to set a property of a JavaBean in a JSP page?",
-          "options": ["<jsp:setProperty>", "<jsp:property>", "<jsp:configProperty>", "<jsp:getProperty>"],
-          "answer": "<jsp:setProperty>"
-        },
-        {
-          "question": "Which of the following is a feature of JavaBeans?",
-          "options": ["Serializable", "Public no-argument constructor", "Getter and setter methods", "All of the above"],
-          "answer": "All of the above"
-        },
-        {
-          "question": "What happens if you try to instantiate a bean that already exists in the same scope?",
-          "options": ["A new instance is created", "The existing bean is reused", "The JSP page throws an exception", "The page fails to compile"],
-          "answer": "The existing bean is reused"
-        },
-        {
-          "question": "If you attempt to run a JSP that contains a coding error, the server typically returns an error page with HTTP Status _______.",
-          "options": ["404", "202", "500", "302"],
-          "answer": "500"
-        },
-        {
-          "question": "Which of these represent the correct path for the core JSTL library?",
-          "options": ["http://java.sun.com/jsp/jstl/core", "http://java.sun.com/jsp/core", "http://java.sun.com/core", "http://java.sun.com/jsp/jstl/1.1/core"],
-          "answer": "http://java.sun.com/jsp/jstl/core"
-        },
-        {
-          "question": "What gets printed when the following expression is evaluated? ${(1==2) ? 4 : 5}",
-          "options": ["1", "2", "4", "5"],
-          "answer": "5"
-        },
-        {
-          "question": "What gets printed when the following expression is evaluated? ${4 div 5}",
-          "options": ["0", "0.8", "1", "-1"],
-          "answer": "0.8"
-        },
-        {
-          "question": "What gets printed when the following expression is evaluated? ${12 % 4}",
-          "options": ["0", "3", "8", "16"],
-          "answer": "0"
-        },
-        {
-          "question": "What is the output of the following JSP code? <c:set var=\"x\" value=\"5\"/><c:out value=\"${x * 2}\"/>",
-          "options": ["10", "5", "25", "Error"],
-          "answer": "10"
-        },
-        {
-          "question": "When we create a custom Handler class for a custom Tag Library, which class should be extended?",
-          "options": ["TagHandler", "SimpleTagSupport", "CustomHandler", "SimpleTag"],
-          "answer": "SimpleTagSupport"
-        },
-        {
-          "question": "To include HTML or JSP files within a JSP at runtime, you can use a/an ______ import tag.",
-          "options": ["JSP", "Scriptlet", "Bean", "JSTL"],
-          "answer": "JSTL"
-        },
-        {
-          "question": "What is the purpose of the <jsp:forward> tag in JSP?",
-          "options": ["To forward the request to another resource", "To handle exceptions", "To create a new session", "To redirect the user to a new URL"],
-          "answer": "To forward the request to another resource"
-        },
-        {
-          "question": "Which attribute in <sql:query> specifies the database connection?",
-          "options": ["connection", "dataSource", "connectionSource", "dbConnection"],
-          "answer": "dataSource"
-        },
-        {
-          "question": "Which attribute is used to specify the error page?",
-          "options": ["isErrorPage", "errorPage", "errorPages", "forError"],
-          "answer": "errorPage"
-        },
-        {
-          "question": "What happens when an uncaught exception is thrown in a JSP page with an errorPage directive?",
-          "options": ["The error page specified is displayed", "The server shuts down", "The user is redirected to the homepage", "The exception is ignored"],
-          "answer": "The error page specified is displayed"
-        },
-        {
-          "question": "Which tag is used to handle exceptions in JSP?",
-          "options": ["<jsp:captureException>", "<jsp:handleException>", "<jsp:error>", "<c:catch>"],
-          "answer": "<c:catch>"
-        },
-        {
-          "question": "To include a file in a JSP at compile-time, you can use the ______________ directive.",
-          "options": ["set", "parse", "include", "append"],
-          "answer": "include"
-        },
-        {
-          "question": "A/an ______________ is a special type of object that provides a standard way to access its properties.",
-          "options": ["PageBean", "JavaBean", "ServletBean", "XmlBean"],
-          "answer": "JavaBean"
-        },
-        {
-          "question": "Which JSTL SQL tag is used to update data in the database?",
-          "options": ["<sql:update>", "<sql:modify>", "<sql:execute>", "<sql:change>"],
-          "answer": "<sql:update>"
-        },
-        {
-          "question": "In which deployment descriptor element is a filter mapped to a servlet or URL pattern?",
-          "options": ["<filter>", "<filter-mapping>", "<servlet>", "<listener>"],
-          "answer": "<filter-mapping>"
-        },
-        {
-          "question": "What does the FilterChain interface represent?",
-          "options": ["A single filter in the filter chain", "The sequence of filters applied to a request/response", "The container for all servlets in a web application", "The request-response lifecycle manager"],
-          "answer": "The sequence of filters applied to a request/response"
-        },
-        {
-          "question": "Which function in JSTL is used to trim leading and trailing whitespace from a string?",
-          "options": ["fn:substring", "fn:toUpperCase", "fn:trim", "fn:replace"],
-          "answer": "fn:trim"
-        },
-        {
-          "question": "To replace occurrences of a substring within a string using JSTL, which function is used?",
-          "options": ["fn:substring", "fn:replace", "fn:split", "fn:trim"],
-          "answer": "fn:replace"
-        },
-        {
-          "question": "Assuming the standard JSTL prefix conventions are used, which JSTL tags would you use to iterate over a collection of objects?",
-          "options": ["<c:for>", "<c:iterate>", "<c:forEach>", "<c:forTokens>"],
-          "answer": "<c:forEach>"
-        },
-        {
-          "question": "What is the default value of the session attribute in the page directive?",
-          "options": ["false", "true", "null", "undefined"],
-          "answer": "true"
-        },
-        {
-          "question": "Which of the following is the default contentType value in a JSP page?",
-          "options": ["text/plain", "text/xml", "text/html", "application/json"],
-          "answer": "text/html"
-        },
-        {
-          "question": "What is the purpose of the <taglib> directive in a JSP page?",
-          "options": ["To declare the use of a custom tag library in the JSP page", "To include a tag file in the JSP page", "To define a custom tag", "To forward a request to another JSP page"],
-          "answer": "To declare the use of a custom tag library in the JSP page"
-        },
-        {
-          "question": "What does the body-content element specify in a TLD file?",
-          "options": ["The content type of the tag body", "Whether the tag can have a body and what it contains", "The URI of the tag library", "The handler class for the custom tag"],
-          "answer": "Whether the tag can have a body and what it contains"
-        },
-        {
-          "question": "In the MVC pattern, which component is responsible for handling user input?",
-          "options": ["Model", "View", "Controller", "Dispatcher"],
-          "answer": "Controller"
-        },
-        {
-          "question": "Which method is used to send a redirect response to the client in a servlet?",
-          "options": ["sendRedirect()", "forward()", "dispatch()", "sendError()"],
-          "answer": "sendRedirect()"
-        },
-        {
-          "question": "Which JSP directive is used to include content from another resource (e.g., HTML, JSP) at page translation time?",
-          "options": ["<%@ include %>", "<%@ taglib %>", "<%! %>", "<jsp:include>"],
-          "answer": "<%@ include %>"
-        },
-        {
-          "question": "What is the default buffer size in a JSP page?",
-          "options": ["8KB", "16KB", "32KB", "64KB"],
-          "answer": "8KB"
-        },
-        {
-          "question": "Which of the following is a valid JSP directive?",
-          "options": ["<%@ page %>", "<%@ servlet %>", "<%@ filter %>", "<%@ listener %>"],
-          "answer": "<%@ page %>"
-        },
-        {
-          "question": "Which tag is used to output a value in JSP without escaping special characters?",
-          "options": ["<c:out>", "<jsp:out>", "<%= %>", "<%: %>"],
-          "answer": "<%= %>"
-        },
-        {
-          "question": "Which scope allows the data to be accessible for the entire application in JSP?",
-          "options": ["Page", "Request", "Session", "Application"],
-          "answer": "Application"
-        },
-        {
-          "question": "Which of the following is a valid declaration in JSP?",
-          "options": ["<%! int x = 10; %>", "<% int x = 10; %>", "<%= int x = 10; %>", "<%! int x 10; %>"],
-          "answer": "<%! int x = 10; %>"
-        },
-        {
-          "question": "Which of the following is NOT a valid attribute of the page directive?",
-          "options": ["contentType", "buffer", "language", "response"],
-          "answer": "response"
-        },
-        {
-          "question": "Which of the following is a correct example of a JSP expression?",
-          "options": ["<%= \"Hello World!\" %>", "<%! \"Hello World!\" %>", "<%@ \"Hello World!\" %>", "<% \"Hello World!\" %>"],
-          "answer": "<%= \"Hello World!\" %>"
-        },
-        {
-          "question": "In which order are the filters executed if multiple filters are configured for a servlet?",
-          "options": ["Alphabetical order", "Reverse order", "The order they appear in the web.xml", "Random order"],
-          "answer": "The order they appear in the web.xml"
-        },
-        {
-          "question": "Which of the following can be used to forward a request from one servlet to another?",
-          "options": ["RequestDispatcher.forward()", "sendRedirect()", "ServletRequest.forward()", "ServletContext.forward()"],
-          "answer": "RequestDispatcher.forward()"
-        },
-        {
-          "question": "Which tag in JSP is used to declare the file encoding?",
-          "options": ["<%@ page contentType=\"text/html;charset=UTF-8\" %>", "<%@ encoding=\"UTF-8\" %>", "<%@ charset=\"UTF-8\" %>", "<%@ include charset=\"UTF-8\" %>"],
-          "answer": "<%@ page contentType=\"text/html;charset=UTF-8\" %>"
+          "question": "Which of these is not a type of inheritance in Java?",
+          "options": ["Single", "Multiple", "Multilevel", "Hierarchical"],
+          "answer": "Multiple"
         }
       ]
     }
